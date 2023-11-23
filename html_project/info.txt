@@ -1,0 +1,4 @@
+The website should have the "Golden Royalty" style
+
+Use Georgia, 'Times New Roman', Times, serif; for headings
+Use font-family: sans-serif; for other text
