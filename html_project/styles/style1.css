@@ -23,8 +23,6 @@ header a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     color: white;
-    border-bottom: 1px solid #ffffff;
-    padding-bottom: 4px;
     -webkit-text-stroke: 1px rgb(217, 138, 0);
     text-shadow: 0px 0px 5px #8b7500; 
 }
@@ -38,7 +36,7 @@ header h1 {
 
 
 .nav-list {
-    margin: 1rem 10rem 20rem 10rem;
+    margin: 1rem 10rem 0rem 10rem;
     border: 2px solid #333;
     border-radius: 10px;
     background-color: rgba(54, 54, 54, 0.25);
@@ -68,6 +66,12 @@ nav ul li a {
     font-weight: bold; 
 }
 
+#HOME, #LEARN, #CONTACT {
+    border-bottom: 1px solid #ffffffa8;
+    border-bottom-style: dashed;
+    padding-bottom: 4px;
+}
+
 @keyframes glow {
     0% {
         text-shadow: 0 0 10px #8b76003e;
@@ -81,7 +85,7 @@ nav ul li a {
     }
   }
 
-nav ul li a:hover {
+a:hover {
     color: rgb(255, 255, 255);
     -webkit-text-stroke: 1px rgb(217, 138, 0);
     text-shadow: 0 0 20px #d2b300;
@@ -91,5 +95,74 @@ nav ul li a:hover {
 
 nav ul li a:active {
     transition: font-size 0.3s ease;
-    font-size: 110%;
-  }
+    font-size: 105%;
+}
+
+
+
+/* Main */
+
+.main {
+    margin: 1rem 10rem 0rem 10rem;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: rgba(35, 35, 35, 0.837);
+}
+
+h2 {
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 0px 0px 1px #8b7500; 
+}
+
+p {
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 0px 0px 1px #8b7500; 
+}
+
+h3 {
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 0px 0px 1px #8b7500; 
+}
+
+.syllabus {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+th {
+    padding: 1rem 3rem 1rem 3rem;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: rgba(54, 54, 54, 0.25);
+}
+
+td {
+    padding-left: 10px;
+    color: gray;
+}
+
+.highlightGreen {
+    color:lightseagreen;
+    text-shadow: none;
+}
+
+#bottomLink {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 5px #8b7500; 
+}
+
+#bottomLink:hover {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0px rgb(217, 138, 0);
+    text-shadow: 0 0 20px #d2b300;
+    font-weight: bold;
+    animation: glow 0.3s ease-out;
+}
