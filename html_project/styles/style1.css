@@ -13,7 +13,8 @@ body {
 
 
 header {
-    background-color: rgba(54, 54, 54, 0.25);
+    background-color: rgba(54, 54, 54, 0.3);
+    border-bottom: 2px solid #333;
     text-align: center;
     padding: 20px;
 }
@@ -36,7 +37,10 @@ header h1 {
 /* Navigation */
 
 
-.main {
+.nav-list {
+    margin: 1rem 10rem 20rem 10rem;
+    border: 2px solid #333;
+    border-radius: 10px;
     background-color: rgba(54, 54, 54, 0.25);
 }
 
