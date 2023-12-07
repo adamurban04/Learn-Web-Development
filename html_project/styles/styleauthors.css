@@ -1,0 +1,63 @@
+.grid {
+    margin-top: 0.5rem;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    min-height: 200px;
+  }
+  .personPhoto{
+    width:130px;
+    height:135px;
+    border-radius: 3%;
+  }
+  .row div {
+    width: 50%;
+  }
+  
+  .person {
+    margin: 4px;
+    display:flex;
+    padding:10px;
+    border:solid 2px;
+    border-radius: 3%;
+    color:white;
+  }
+  
+  .one{
+    margin-left: 250px;
+    padding-top: 15px;
+    background-color: #282828;
+    border-color:dimgray;
+  }
+  
+  .two {
+    margin-right: 250px;
+    padding-top: 15px;
+    background-color: #282828;
+    border-color:dimgray;
+  }
+  
+  .three {
+    margin-left: 250px;
+    padding-top: 15px;
+    background-color: #282828;
+    border-color:dimgray;
+  }
+  
+  .four {
+    margin-right: 250px;
+    padding-top: 15px;
+    background-color: #282828;
+    border-color:dimgray;
+
+  }
+
+  .info {
+    line-height: 1.32;
+    border: 2px solid dimgray;
+    margin: 0px 30px 20px 50px;
+    border-radius: 5%;
+    padding: 15px;
+  }
