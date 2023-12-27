@@ -4,7 +4,7 @@
 This project is developed in HTML and CSS and aims to help people learn HTML and CSS fundamentals**
 
 Check out:
-- The html and css code along with media
+- The HTML and CSS code along with media
 
 
 Contributors:
