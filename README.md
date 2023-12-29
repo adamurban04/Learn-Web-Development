@@ -3,6 +3,8 @@
 **Welcome to the Learn-Web-Development repository!  
 This project is developed in HTML and CSS and aims to help people learn HTML and CSS fundamentals**
 
+url: https://adamurban04.github.io/Learn-Web-Development/pages/authors.html
+
 Check out:
 - The HTML and CSS code along with media
 
