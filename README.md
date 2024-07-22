@@ -1,9 +1,6 @@
 # Learn-Web-Development Website
 
-**Welcome to the Learn-Web-Development repository!  
-This project is developed in HTML and CSS and aims to help people learn HTML and CSS fundamentals**
-
-url: https://adamurban04.github.io/Learn-Web-Development/index.html
+This project is developed in HTML and CSS, the website introduces HTML and CSS fundamentals**
 
 Check out:
 - The HTML and CSS code along with media
